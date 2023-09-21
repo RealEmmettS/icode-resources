@@ -19,16 +19,13 @@
 // </div>
 // <script src="js/script.js"></script>
 
-const button = document.getElementById('download');
-button.addEventListener('click', () => {
-    const password = prompt('Enter the password');
-    if (password === 'iCode002') {
-        window.location.href = 'https://icode-files.s3.amazonaws.com/resources2023.zip';
+function downloadZip() {
+    var password = prompt("Enter Password");
+    if (password === "iCode002") {
+        window.location.href = "https://icode-files.s3.amazonaws.com/resources2023.zip";
     } else {
-        alert('Password is incorrect');
+        alert("Incorrect Password");
     }
-});
-
-
+}
 
 
