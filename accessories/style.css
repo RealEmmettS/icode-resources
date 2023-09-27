@@ -1,4 +1,3 @@
-
 /* BEGIN CSS HERE */
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -25,12 +24,15 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-/* Additional CSS to center main content */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    /* Additional CSS to center main content */
     min-height: 100vh;  /* Cover the full view height */
     margin: 0 auto;
+}
+
+/* Additional CSS to center text and button together */
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

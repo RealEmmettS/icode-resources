@@ -1,5 +1,5 @@
 function downloadZip() {
-    var password = prompt("Enter Password");
+    let password = prompt("Enter Password");
     if (password === "iCode002") {
         window.location.href = "https://icode-files.s3.amazonaws.com/resources2023.zip";
     } else {
@@ -8,7 +8,7 @@ function downloadZip() {
 }
 
 function viewPasswords() {
-    var password = prompt("Enter Password");
+    let password = prompt("Enter Password");
     if (password === "iCode002") {
         window.location.href = "https://icode-files.s3.amazonaws.com/password_sheet.jpg";
     } else {
