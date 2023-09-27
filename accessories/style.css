@@ -1,21 +1,3 @@
-/* Make sure that everything is centered and Helvetica Neue is used for the font.
-
-MAIN HTML:
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Download Resource Zip</title>
-        <link rel="stylesheet" href="accessories/style.css">
-        <script src="accessories/script.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <h1>Download Resource Zip</h1>
-            <button onclick="downloadZip()">Download Resource Zip</button>
-        </div>
-    </body>
-</html> 
-*/
 
 /* BEGIN CSS HERE */
 body {
